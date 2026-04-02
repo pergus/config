@@ -215,7 +215,7 @@
 ;; -----------------------------------------------------------------------------
 
 ;; Importing simpc-mode
-(add-to-list 'load-path "/Users/go/.emacs.d/simple-c-mode/")
+(add-to-list 'load-path "~/.emacs.d/simple-c-mode/")
 (require 'simpc-mode)
 (add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
 
