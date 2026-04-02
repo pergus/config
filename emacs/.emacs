@@ -142,6 +142,13 @@
 ;; Packages
 ;;------------------------------------------------------------------------------
 
+;; Move text
+(use-package move-text
+  :bind
+  (("C-S-<up>"   . move-text-up)
+   ("C-S-<down>" . move-text-down)))
+
+
 ;; Mode Line: Minions
 (use-package minions
   :ensure t
